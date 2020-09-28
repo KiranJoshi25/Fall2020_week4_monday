@@ -1,0 +1,264 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 4.1 HTML Form</title>
+    <style>
+        table{
+            border: solid black 0.5px;
+
+            width: 70%;
+            background-color: white;
+            border-radius: 7px;
+            margin-left: 10%;
+            margin-bottom: 20px;
+
+
+
+
+        }
+        #input{
+            colour:white;
+            padding: 15px;
+        }
+        button{
+            color:black;
+            background-color: blueviolet;
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(240,235,258)">
+<form id="form1">
+    <table>
+        <thead>
+        <tbody>
+        <tr>
+            <td>
+                <h1>
+                    Individual Project
+                </h1>
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <label>
+                Choose a topic, and  research interest for individual data visualization project
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="color:#ff0000">*Required</label>
+        </td>
+    </tr>
+
+    </tbody>
+    </table>
+    <table >
+        <tr>
+            <td>
+                <label for="email">
+                    Email Address
+
+                </label>
+                <label style="color: red">*</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" id="email" name="email">
+
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label for="fname">Firstname</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="fname" name="fname">
+            </td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label for="lname">Laststname</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="lname" name="lname">
+            </td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label for="rinterest">Research Interest (At least 3)</label>
+                <label style="color: red">*</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="rinterest" name="rinterest">
+            </td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label for="ptitle">Project Title - (e.g. income vs education us cencus)</label>
+                <label style="color: red">*</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="ptitle" name="ptitle">
+            </td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label >Top Skills</label>
+                <label style='color: red;'>*</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="sql" name="sql" value="sql">
+                <label for="sql">SQL</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python">Python Programming</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="matlab" name="matlab" value="matlab">
+                <label for="matlab">Matlab</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="D3js" name="D3js" value="D3js">
+                <label for="D3js">D3js and Javascript</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="cvb" name="cvb" value="cvb">
+                <label for="cvb">C#  VB.net</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="PHP" name="PHP" value="PHP">
+                <label for="PHP">PHP</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="node" name="node" value="node">
+                <label for="node">Node.JS</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="WD" name="WD" value="WD">
+                <label for="WD">Web Design tool (e.g. Wordpress)</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="html" name="html" value="html">
+                <label for="html">HTML and CSS</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="Excel" name="Excel" value="Excel">
+                <label for="Excel">Excel</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="Power" name="Power" value="Power">
+                <label for="Power">Power BI</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="tableau" name="tableau" value="tableau">
+                <label for="tableau">Tableau</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="op" name="op" value="op">
+                <label for="op">Option 13</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label>
+                <input type="text" id="oth" name="oth">
+
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label for="suggest">Suggestion or Questions </label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="suggest" name="suggest">
+            </td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" id="snd" name="snd" value="snd">
+                <label for="snd">Send me the copy of my responses</label>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <button id="input" type="button" form="form1" value="submit"> Submit</button>
+    </table>
+</form>
+
+</body>
+</html>
